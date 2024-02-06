@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+nav ul li a:hover {
+    color: #ff9900; /* Change color on hover */
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.home-section {
+    background-image: url('https://th.bing.com/th/id/OIP.SU22fRtzqtoFF3QU1CPL1wHaHa?rs=1&pid=ImgDetMain');
+    background-size: cover;
+    color: black;
+}
+
+.about-section {
+    background-color: #f4f4f4;
+}
+
+.menu-section {
+    background-color: #fff;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 20px;
+}
+
+.contact-section {
+    background-color: #f4f4f4;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label,
+form textarea,
+form input[type="text"],
+form input[type="email"],
+form button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+form textarea {
+    height: 150px;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
